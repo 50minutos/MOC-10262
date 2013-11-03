@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001-Culture", "001-Culture\001-Culture.csproj", "{028BA79F-2D85-4E50-9C6C-0B6ADA0FA31D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002-Resx", "002-Resx\002-Resx.csproj", "{ECA92C6E-D471-4B50-B14F-F4680782C575}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "003-ToolTip", "003-ToolTip\003-ToolTip.csproj", "{C6E3E79B-B98C-48C5-A553-FE824ECA96F2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{028BA79F-2D85-4E50-9C6C-0B6ADA0FA31D}.Debug|x86.ActiveCfg = Debug|x86
+		{028BA79F-2D85-4E50-9C6C-0B6ADA0FA31D}.Debug|x86.Build.0 = Debug|x86
+		{028BA79F-2D85-4E50-9C6C-0B6ADA0FA31D}.Release|x86.ActiveCfg = Release|x86
+		{028BA79F-2D85-4E50-9C6C-0B6ADA0FA31D}.Release|x86.Build.0 = Release|x86
+		{ECA92C6E-D471-4B50-B14F-F4680782C575}.Debug|x86.ActiveCfg = Debug|x86
+		{ECA92C6E-D471-4B50-B14F-F4680782C575}.Debug|x86.Build.0 = Debug|x86
+		{ECA92C6E-D471-4B50-B14F-F4680782C575}.Release|x86.ActiveCfg = Release|x86
+		{ECA92C6E-D471-4B50-B14F-F4680782C575}.Release|x86.Build.0 = Release|x86
+		{C6E3E79B-B98C-48C5-A553-FE824ECA96F2}.Debug|x86.ActiveCfg = Debug|x86
+		{C6E3E79B-B98C-48C5-A553-FE824ECA96F2}.Debug|x86.Build.0 = Debug|x86
+		{C6E3E79B-B98C-48C5-A553-FE824ECA96F2}.Release|x86.ActiveCfg = Release|x86
+		{C6E3E79B-B98C-48C5-A553-FE824ECA96F2}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

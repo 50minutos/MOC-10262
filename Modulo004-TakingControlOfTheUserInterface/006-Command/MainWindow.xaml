@@ -1,0 +1,11 @@
+﻿<Window x:Class="_006_Command.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.CommandBindings>
+        <CommandBinding Command="Close" CanExecute="CommandBinding_CanExecute" Executed="CommandBinding_Executed"></CommandBinding>
+    </Window.CommandBindings>
+    <Grid>
+        <Button Command="Close" Content="Clique aqui para fechar" HorizontalAlignment="Center" VerticalAlignment="Center" Padding="30"></Button>
+    </Grid>
+</Window>

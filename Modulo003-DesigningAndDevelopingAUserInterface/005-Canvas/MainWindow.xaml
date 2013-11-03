@@ -1,0 +1,11 @@
+﻿<Window x:Class="_005_Canvas.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Canvas>
+        <Button Padding="20" Content="Botão 2" Canvas.Left="10" Canvas.Top="10"/>
+        <Button Padding="20" Content="Botão 1" Canvas.Left="0" Canvas.Top="0"/>
+        <Button Padding="20" Content="Botão 3" Canvas.Left="100" Canvas.Top="50"/>
+        <Button Padding="20" Content="Botão 4" Canvas.Left="50" Canvas.Top="100"/>
+    </Canvas>
+</Window>

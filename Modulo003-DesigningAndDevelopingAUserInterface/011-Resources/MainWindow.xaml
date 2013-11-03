@@ -1,0 +1,18 @@
+﻿<Window x:Class="_011_Resources.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.Resources>
+        <LinearGradientBrush x:Key="Cor">
+            <LinearGradientBrush.GradientStops>
+                <GradientStop Offset="0.00" Color="DarkGreen" />
+                <GradientStop Offset="0.50" Color="Yellow" />
+                <GradientStop Offset="1.00" Color="DarkGreen" />
+            </LinearGradientBrush.GradientStops>
+        </LinearGradientBrush>
+    </Window.Resources>
+    <Grid x:Name="LayoutRoot" Background="{StaticResource Cor}">
+        <TextBlock Text="um texto qualquer" FontSize="30" Foreground="{StaticResource Cor}"></TextBlock>
+    </Grid>
+
+</Window>

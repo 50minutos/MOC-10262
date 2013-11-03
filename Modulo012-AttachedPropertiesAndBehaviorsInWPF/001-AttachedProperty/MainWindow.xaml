@@ -1,0 +1,17 @@
+﻿<Window x:Class="_001_AttachedProperty.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <StackPanel>
+        <StackPanel>
+            <Label Content="esse é o label" FontSize="30" FontWeight="bold" FontFamily="Courier New"></Label>
+        <Label Content="esse é outro label" FontSize="30" FontWeight="bold" FontFamily="Courier New"></Label>
+        <Button Content="esse é o button" FontSize="30" FontWeight="bold" FontFamily="Courier New"></Button>
+    </StackPanel>
+        <StackPanel TextBlock.FontSize="30" TextBlock.FontWeight="bold" TextBlock.FontFamily="Courier New">
+        <Label Content="esse é o label"></Label>
+        <Label Content="esse é outro label"></Label>
+        <Button Content="esse é o button"></Button>
+        </StackPanel>
+    </StackPanel>
+</Window>

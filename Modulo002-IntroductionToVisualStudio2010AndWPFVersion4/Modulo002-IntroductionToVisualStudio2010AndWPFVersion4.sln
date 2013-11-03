@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001-Dynamic", "001-Dynamic\001-Dynamic.csproj", "{A7748F3A-93A2-41ED-9259-3A36FC71C327}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002-Bind", "002-Bind\002-Bind.csproj", "{5AF468B2-3E1E-4467-870C-7CA3BFDFE1B7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7748F3A-93A2-41ED-9259-3A36FC71C327}.Debug|x86.ActiveCfg = Debug|x86
+		{A7748F3A-93A2-41ED-9259-3A36FC71C327}.Debug|x86.Build.0 = Debug|x86
+		{A7748F3A-93A2-41ED-9259-3A36FC71C327}.Release|x86.ActiveCfg = Release|x86
+		{A7748F3A-93A2-41ED-9259-3A36FC71C327}.Release|x86.Build.0 = Release|x86
+		{5AF468B2-3E1E-4467-870C-7CA3BFDFE1B7}.Debug|x86.ActiveCfg = Debug|x86
+		{5AF468B2-3E1E-4467-870C-7CA3BFDFE1B7}.Debug|x86.Build.0 = Debug|x86
+		{5AF468B2-3E1E-4467-870C-7CA3BFDFE1B7}.Release|x86.ActiveCfg = Release|x86
+		{5AF468B2-3E1E-4467-870C-7CA3BFDFE1B7}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

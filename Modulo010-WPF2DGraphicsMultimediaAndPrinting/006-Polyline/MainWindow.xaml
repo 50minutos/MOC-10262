@@ -1,0 +1,9 @@
+﻿<Window x:Class="_006_Polyline.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Canvas>
+        <Polyline Stroke="Blue" Points="5 100 15 200"></Polyline>
+        <Polyline Stroke="DarkBlue" StrokeThickness="5" Points="10,150 30,140 50,160 70,130 90,170 110,120 130,180 150,110 170,190 190,100 210,240"></Polyline>
+    </Canvas>
+</Window>

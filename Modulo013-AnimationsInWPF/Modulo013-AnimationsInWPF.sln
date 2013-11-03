@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001-ColorAnimation", "001-ColorAnimation\001-ColorAnimation.csproj", "{BA4E7EC9-0A5B-4748-B459-8A92A3A4FF81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002-DoubleAnimation", "002-DoubleAnimation\002-DoubleAnimation.csproj", "{59410685-DA3A-4F55-B61C-12172D6BCB17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "003-PointAnimation", "003-PointAnimation\003-PointAnimation.csproj", "{7E78406D-8571-42EB-9FE2-D6414C59ABC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "004-Animation", "004-Animation\004-Animation.csproj", "{A0F009B1-6054-4790-881F-EB1AEB40E875}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA4E7EC9-0A5B-4748-B459-8A92A3A4FF81}.Debug|x86.ActiveCfg = Debug|x86
+		{BA4E7EC9-0A5B-4748-B459-8A92A3A4FF81}.Debug|x86.Build.0 = Debug|x86
+		{BA4E7EC9-0A5B-4748-B459-8A92A3A4FF81}.Release|x86.ActiveCfg = Release|x86
+		{BA4E7EC9-0A5B-4748-B459-8A92A3A4FF81}.Release|x86.Build.0 = Release|x86
+		{59410685-DA3A-4F55-B61C-12172D6BCB17}.Debug|x86.ActiveCfg = Debug|x86
+		{59410685-DA3A-4F55-B61C-12172D6BCB17}.Debug|x86.Build.0 = Debug|x86
+		{59410685-DA3A-4F55-B61C-12172D6BCB17}.Release|x86.ActiveCfg = Release|x86
+		{59410685-DA3A-4F55-B61C-12172D6BCB17}.Release|x86.Build.0 = Release|x86
+		{7E78406D-8571-42EB-9FE2-D6414C59ABC3}.Debug|x86.ActiveCfg = Debug|x86
+		{7E78406D-8571-42EB-9FE2-D6414C59ABC3}.Debug|x86.Build.0 = Debug|x86
+		{7E78406D-8571-42EB-9FE2-D6414C59ABC3}.Release|x86.ActiveCfg = Release|x86
+		{7E78406D-8571-42EB-9FE2-D6414C59ABC3}.Release|x86.Build.0 = Release|x86
+		{A0F009B1-6054-4790-881F-EB1AEB40E875}.Debug|x86.ActiveCfg = Debug|x86
+		{A0F009B1-6054-4790-881F-EB1AEB40E875}.Debug|x86.Build.0 = Debug|x86
+		{A0F009B1-6054-4790-881F-EB1AEB40E875}.Release|x86.ActiveCfg = Release|x86
+		{A0F009B1-6054-4790-881F-EB1AEB40E875}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

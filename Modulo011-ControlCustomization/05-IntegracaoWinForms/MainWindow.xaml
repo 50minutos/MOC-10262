@@ -1,0 +1,12 @@
+﻿<Window x:Class="_05_IntegracaoWinForms.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:swf="clr-namespace:System.Windows.Forms;assembly=System.Windows.Forms"
+        Title="MainWindow" Height="350" Width="525">
+    <StackPanel>
+        <Button Content="Do WPF" Click="ButtonWPF_Click"></Button>
+        <WindowsFormsHost>
+            <swf:Button Text="Do Windows Forms"  Click="ButtonWF_Click"></swf:Button>
+        </WindowsFormsHost>
+    </StackPanel>
+</Window>

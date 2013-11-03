@@ -1,0 +1,43 @@
+﻿<Window x:Class="_007_Template.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="150" Width="300">
+    <Window.Resources>
+        <Style TargetType="{x:Type Label}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Label}">
+                        <Grid>
+                            <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center" ContentSource="Content" TextBlock.FontSize="30" TextBlock.Foreground="DarkBlue" TextBlock.FontWeight="Bold" TextBlock.FontFamily="SketchFlow Print" />
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style TargetType="{x:Type Button}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Grid Margin="0 0 5 5">
+                            <Ellipse Width="56" Height="56" Fill="LightBlue" Stroke="DarkCyan" StrokeThickness="2"/>
+                            <Ellipse  Width="48" Height="48" Fill="CornflowerBlue"/>
+                            <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center" ContentSource="Content" TextBlock.FontSize="12" TextBlock.Foreground="LightGoldenrodYellow" TextBlock.FontWeight="Bold"/>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+    <Grid Background="LightGoldenrodYellow">
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Label>Clique num botão</Label>
+        <StackPanel Orientation="Horizontal" Grid.Row="1" HorizontalAlignment="Right" ButtonBase.Click="Button_Click">
+            <Button Content="SIM"></Button>
+            <Button Content="NÃO"></Button>
+        </StackPanel>
+    </Grid>
+</Window>
+    

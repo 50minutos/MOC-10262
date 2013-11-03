@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "001-WindowsForms", "001-WindowsForms\001-WindowsForms.vbproj", "{B3B5347C-1967-494A-90EA-6F34069389AD}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "002-WPF", "002-WPF\002-WPF.vbproj", "{627EFAC2-56EF-4E67-962F-14BC7714D2FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "003-StructClassEnumDelegate", "003-StructClassEnumDelegate\003-StructClassEnumDelegate.csproj", "{813CC270-A84F-4BAC-A49D-AF5FE78B271E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3B5347C-1967-494A-90EA-6F34069389AD}.Debug|x86.ActiveCfg = Debug|x86
+		{B3B5347C-1967-494A-90EA-6F34069389AD}.Debug|x86.Build.0 = Debug|x86
+		{B3B5347C-1967-494A-90EA-6F34069389AD}.Release|x86.ActiveCfg = Release|x86
+		{B3B5347C-1967-494A-90EA-6F34069389AD}.Release|x86.Build.0 = Release|x86
+		{627EFAC2-56EF-4E67-962F-14BC7714D2FD}.Debug|x86.ActiveCfg = Debug|x86
+		{627EFAC2-56EF-4E67-962F-14BC7714D2FD}.Debug|x86.Build.0 = Debug|x86
+		{627EFAC2-56EF-4E67-962F-14BC7714D2FD}.Release|x86.ActiveCfg = Release|x86
+		{627EFAC2-56EF-4E67-962F-14BC7714D2FD}.Release|x86.Build.0 = Release|x86
+		{813CC270-A84F-4BAC-A49D-AF5FE78B271E}.Debug|x86.ActiveCfg = Debug|x86
+		{813CC270-A84F-4BAC-A49D-AF5FE78B271E}.Debug|x86.Build.0 = Debug|x86
+		{813CC270-A84F-4BAC-A49D-AF5FE78B271E}.Release|x86.ActiveCfg = Release|x86
+		{813CC270-A84F-4BAC-A49D-AF5FE78B271E}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

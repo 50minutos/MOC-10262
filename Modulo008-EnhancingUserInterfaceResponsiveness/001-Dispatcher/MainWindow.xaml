@@ -1,0 +1,8 @@
+﻿<Window x:Class="_001_Dispatcher.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="100" Width="450" Loaded="Window_Loaded">
+    <Grid>
+        <Label Name="DataHora" HorizontalAlignment="Center" VerticalAlignment="center" FontSize="40"></Label>
+    </Grid>
+</Window>

@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="_001_Settings.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="eMailCorporativo" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">contato@50minutos.com.br</Value>
+    </Setting>
+    <Setting Name="eMail" Type="System.String" Scope="User">
+      <Value Profile="(Default)">agnaldo@50minutos.com.br</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

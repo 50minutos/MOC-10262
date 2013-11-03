@@ -1,0 +1,10 @@
+﻿<Window x:Class="_005_MouseCursor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+        <StackPanel VerticalAlignment="Center">
+            <Button Padding="10" Margin="10" Width="200" Content="Sem definição de cursor" VerticalAlignment="Top" HorizontalAlignment="Center"></Button>
+            <Button Cursor="Hand" Padding="10" Margin="10" Width="200" Content="Cursor Hand" VerticalAlignment="Center" HorizontalAlignment="Center"></Button>
+            <Button Cursor="Wait" Padding="10" Margin="10" Width="200" Content="Cursor Wait" VerticalAlignment="Bottom" HorizontalAlignment="Center"></Button>
+        </StackPanel>
+</Window>

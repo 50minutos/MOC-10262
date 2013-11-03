@@ -1,0 +1,13 @@
+﻿<Window x:Class="_003_ToolTip.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <StackPanel>
+        <Button Content="CLIQUE AQUI" Padding="20">
+            <Button.ToolTip>
+                <TextBlock Text="clique aqui para enviar os dados"/>
+            </Button.ToolTip>
+        </Button>
+        <Button Content="clique aqui, também" Margin="0 10" Padding="20"></Button>
+    </StackPanel>
+</Window>

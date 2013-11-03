@@ -1,0 +1,35 @@
+﻿<Window x:Class="_003_Style.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525" Loaded="Window_Loaded">
+    <Window.Resources>
+        <Style x:Key="botao" TargetType="{x:Type Button}">
+            <Setter Property="Background" Value="DarkGray"></Setter>
+            <Setter Property="Foreground" Value="LightGray"></Setter>
+            <Setter Property="Width" Value="100"></Setter>
+            <Setter Property="Height" Value="30"></Setter>
+        </Style>
+        <Style x:Key="botaoCancelar" TargetType="{x:Type Button}">
+            <Setter Property="Background" Value="Yellow"></Setter>
+            <Setter Property="Foreground" Value="Red"></Setter>
+            <Setter Property="Width" Value="100"></Setter>
+            <Setter Property="Height" Value="30"></Setter>
+        </Style>
+        <Style x:Key="botaoOk" BasedOn="{StaticResource ResourceKey=botao}" TargetType="{x:Type Button}">
+            <Setter Property="BorderBrush" Value="Black"></Setter>
+            <Setter Property="BorderThickness" Value="5"></Setter>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Button Content="Ok" Style="{StaticResource ResourceKey=botaoOk}"/>
+        <Button Content="Continuar" Grid.Row="1" Style="{StaticResource ResourceKey=botao}"/>
+        <Button Content="Pausar" Grid.Row="2" Name="BotaoPausar"/>
+        <Button Content="Cancelar" Grid.Row="2" Style="{StaticResource ResourceKey=botaoCancelar}"/>
+    </Grid>
+</Window>

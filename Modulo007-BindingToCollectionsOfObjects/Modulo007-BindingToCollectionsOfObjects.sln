@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001-ObservableCollection", "001-ObservableCollection\001-ObservableCollection.csproj", "{F5E200C9-EAF3-408B-BAA9-A607A6372740}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002-LINQ", "002-LINQ\002-LINQ.csproj", "{F74E389B-BE74-4E45-8985-B174E523F2D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "003-LINQListPessoa", "003-LINQListPessoa\003-LINQListPessoa.csproj", "{E0E1C9CD-1F22-4429-B7DA-F5B3FE923955}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "004-SortDescription", "004-SortDescription\004-SortDescription.csproj", "{9C7E470E-F948-4EBA-91EF-C812E104DF4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "005-DataTemplate", "005-DataTemplate\005-DataTemplate.csproj", "{A344271E-B983-4A54-8BED-E69A1D015E6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "006-DataTemplateResource", "006-DataTemplateResource\006-DataTemplateResource.csproj", "{EB39FA37-6B21-4925-8C2F-988A3330C95B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5E200C9-EAF3-408B-BAA9-A607A6372740}.Debug|x86.ActiveCfg = Debug|x86
+		{F5E200C9-EAF3-408B-BAA9-A607A6372740}.Debug|x86.Build.0 = Debug|x86
+		{F5E200C9-EAF3-408B-BAA9-A607A6372740}.Release|x86.ActiveCfg = Release|x86
+		{F5E200C9-EAF3-408B-BAA9-A607A6372740}.Release|x86.Build.0 = Release|x86
+		{F74E389B-BE74-4E45-8985-B174E523F2D8}.Debug|x86.ActiveCfg = Debug|x86
+		{F74E389B-BE74-4E45-8985-B174E523F2D8}.Debug|x86.Build.0 = Debug|x86
+		{F74E389B-BE74-4E45-8985-B174E523F2D8}.Release|x86.ActiveCfg = Release|x86
+		{F74E389B-BE74-4E45-8985-B174E523F2D8}.Release|x86.Build.0 = Release|x86
+		{E0E1C9CD-1F22-4429-B7DA-F5B3FE923955}.Debug|x86.ActiveCfg = Debug|x86
+		{E0E1C9CD-1F22-4429-B7DA-F5B3FE923955}.Debug|x86.Build.0 = Debug|x86
+		{E0E1C9CD-1F22-4429-B7DA-F5B3FE923955}.Release|x86.ActiveCfg = Release|x86
+		{E0E1C9CD-1F22-4429-B7DA-F5B3FE923955}.Release|x86.Build.0 = Release|x86
+		{9C7E470E-F948-4EBA-91EF-C812E104DF4D}.Debug|x86.ActiveCfg = Debug|x86
+		{9C7E470E-F948-4EBA-91EF-C812E104DF4D}.Debug|x86.Build.0 = Debug|x86
+		{9C7E470E-F948-4EBA-91EF-C812E104DF4D}.Release|x86.ActiveCfg = Release|x86
+		{9C7E470E-F948-4EBA-91EF-C812E104DF4D}.Release|x86.Build.0 = Release|x86
+		{A344271E-B983-4A54-8BED-E69A1D015E6B}.Debug|x86.ActiveCfg = Debug|x86
+		{A344271E-B983-4A54-8BED-E69A1D015E6B}.Debug|x86.Build.0 = Debug|x86
+		{A344271E-B983-4A54-8BED-E69A1D015E6B}.Release|x86.ActiveCfg = Release|x86
+		{A344271E-B983-4A54-8BED-E69A1D015E6B}.Release|x86.Build.0 = Release|x86
+		{EB39FA37-6B21-4925-8C2F-988A3330C95B}.Debug|x86.ActiveCfg = Debug|x86
+		{EB39FA37-6B21-4925-8C2F-988A3330C95B}.Debug|x86.Build.0 = Debug|x86
+		{EB39FA37-6B21-4925-8C2F-988A3330C95B}.Release|x86.ActiveCfg = Release|x86
+		{EB39FA37-6B21-4925-8C2F-988A3330C95B}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

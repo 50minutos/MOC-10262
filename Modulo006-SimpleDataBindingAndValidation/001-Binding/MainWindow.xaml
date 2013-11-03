@@ -1,0 +1,38 @@
+﻿<Window x:Class="_001_Binding.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:c="clr-namespace:_001_Binding"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.Resources>
+        <c:FormatoBotao x:Key="Botao"/>
+        <c:Pessoa x:Key="Carinha"/>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.DataContext>
+                <Binding Source="{StaticResource Botao}"/>
+            </Grid.DataContext>
+            <Button Width="{Binding Path=Width}" Height="{Binding Path=Height}" Content="ooo" Grid.Row="0"></Button>
+            <Button Width="{Binding Path=Width}" Height="{Binding Path=Height}" Content="ooo" Grid.Row="1"></Button>
+            <Button Width="{Binding Path=Width}" Height="{Binding Path=Height}" Content="ooo" Grid.Row="2"></Button>
+        </Grid>
+        <StackPanel Grid.Row="1">
+            <StackPanel.DataContext>
+                <Binding Source="{StaticResource Carinha}"/>
+            </StackPanel.DataContext>
+            <Label Content="Código:"></Label>
+            <Label Content="{Binding Path=Codigo}"></Label>
+            <Label Content="Nome:"></Label>
+            <Label Content="{Binding Path=Nome}"></Label>
+        </StackPanel>
+    </Grid>
+</Window>

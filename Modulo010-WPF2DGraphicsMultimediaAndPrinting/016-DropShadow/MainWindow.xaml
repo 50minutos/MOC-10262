@@ -1,0 +1,36 @@
+﻿<Window x:Class="_016_DropShadow.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <StackPanel>
+        <TextBlock FontSize="20" Margin="20" Text="Basic dropshadow"> 
+            <TextBlock.Effect> 
+                <DropShadowEffect></DropShadowEffect> 
+            </TextBlock.Effect>
+        </TextBlock>
+
+        <TextBlock FontSize="20" Margin="20" Text="Light blue dropshadow"> 
+            <TextBlock.Effect> 
+                <DropShadowEffect Color="LightBlue"></DropShadowEffect> 
+            </TextBlock.Effect>
+        </TextBlock>
+
+        <TextBlock FontSize="20" Foreground="White" Margin="20" Text="Blurred dropshadow with white text"> 
+            <TextBlock.Effect> 
+                <DropShadowEffect BlurRadius="15"></DropShadowEffect> 
+            </TextBlock.Effect>
+        </TextBlock>
+
+        <TextBlock FontSize="40" Foreground="Magenta" Margin="20" Text="Close dropshadow"> 
+            <TextBlock.Effect>
+                <DropShadowEffect ShadowDepth="0"></DropShadowEffect> 
+            </TextBlock.Effect>
+        </TextBlock>
+
+        <TextBlock FontSize="20" Foreground="LimeGreen" Margin="20" Text="Distant dropshadow"> 
+            <TextBlock.Effect> 
+                <DropShadowEffect ShadowDepth="25"></DropShadowEffect> 
+            </TextBlock.Effect>
+        </TextBlock>
+    </StackPanel>
+</Window>

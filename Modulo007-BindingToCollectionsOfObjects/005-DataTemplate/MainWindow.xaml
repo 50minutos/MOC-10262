@@ -1,0 +1,22 @@
+﻿<Window x:Class="_005_DataTemplate.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:src="clr-namespace:_005_DataTemplate"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.Resources>
+        <src:ListPessoa x:Key="Lista"/>
+    </Window.Resources>
+
+    <Grid>
+        <ListBox ItemsSource="{Binding Source={StaticResource Lista}}">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <WrapPanel>
+                        <Label Content="{Binding Path=Codigo}" FontWeight="Bold"></Label>
+                        <Label Content="{Binding Path=Nome}"></Label>
+                    </WrapPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+    </Grid>
+</Window>
